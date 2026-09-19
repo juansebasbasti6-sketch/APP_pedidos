@@ -1,0 +1,25 @@
+# Archivos generados por compilación
+/build/
+/app/build/
+*.apk
+*.aab
+
+# Archivos específicos de esta máquina
+local.properties
+
+# Carpetas de Gradle y cache
+.gradle/
+.gradle-cache/
+
+# Archivos de Android Studio / IDEs (por si acaso)
+.idea/
+*.iml
+.vscode/
+
+# Wrapper de Gradle (el jar se puede regenerar, pero lo dejamos por seguridad)
+!gradle/wrapper/gradle-wrapper.jar
+
+# Archivos temporales del sistema
+*.log
+.DS_Store
+Thumbs.db
