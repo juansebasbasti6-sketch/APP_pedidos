@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
                 Toast.makeText(this, "Nuevo pedido (en construcción)", Toast.LENGTH_SHORT).show());
 
         btnClientes.setOnClickListener(v ->
-                Toast.makeText(this, "Clientes (en construcción)", Toast.LENGTH_SHORT).show());
+        startActivity(new android.content.Intent(this, ClientesActivity.class)));
 
         btnProductos.setOnClickListener(v ->
                 Toast.makeText(this, "Productos (en construcción)", Toast.LENGTH_SHORT).show());

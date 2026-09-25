@@ -17,6 +17,9 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".ClientesActivity" android:exported="false" />
+        <activity android:name=".NuevoClienteActivity" android:exported="false" />
+
     </application>
 
 </manifest>

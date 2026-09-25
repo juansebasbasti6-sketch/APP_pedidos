@@ -37,4 +37,6 @@ dependencies {
 
     // Generación de PDF
     implementation 'androidx.print:print:1.0.0'
+
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
 }
